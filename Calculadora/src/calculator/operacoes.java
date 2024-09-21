@@ -1,6 +1,8 @@
 package calculator;
 
 import java.util.Scanner;
+import net.objecthunter.exp4j.Expression;
+import net.objecthunter.exp4j.ExpressionBuilder;
 
 public class operacoes {
 	
@@ -16,7 +18,7 @@ public class operacoes {
 		if (n2 != 0) {
 			return n1/n2;
 		} else {
-			 throw new ArithmeticException("Erro: Divisão por zero!");
+			 throw new ArithmeticException("Erro: Divisï¿½o por zero!");
 		}
 	}
 	
@@ -24,5 +26,10 @@ public class operacoes {
 		return n1*n2;
 	}
 	
+	public static void pergunta(int opc) {
+		System.out.println("1- Adicionar mais um numero para calcular");
+		System.out.println("2- Resultado");
+	}
 	
 }
+
