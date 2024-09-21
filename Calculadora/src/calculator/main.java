@@ -9,12 +9,13 @@ public class main {
         Scanner scanner = new Scanner(System.in);
         
         System.out.println("--- Bem-vindo à Calculadora 20000 ---");
-        System.out.println("|1- Soma: +            |");
-        System.out.println("|2- Subtração: -       |");
-        System.out.println("|3- Divisão: /         |");
-        System.out.println("|4- Multiplicação:   * |");
-        System.out.println("|5- Raiz Quadrada: V   |");
-        System.out.println("|6- Potência: ^        |");
+        System.out.println("| Soma: +            |");
+        System.out.println("| Subtração: -       |");
+        System.out.println("| Divisão: /         |");
+        System.out.println("| Multiplicação:   * |");
+        System.out.println("| Raiz Quadrada: 2V  |");
+        System.out.println("| Potência: ^        |");
+        System.out.println("| Porcentagem: %     | \n");
         
         System.out.print("Para realizar sua conta, digite sua conta por completo: \nConta: ");
         String conta = scanner.nextLine(); // Lê a expressão do usuário
